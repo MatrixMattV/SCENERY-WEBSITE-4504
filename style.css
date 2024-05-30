@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url("pexels-thomas-balabaud-735585-18897226.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h2 {
+    user-select: none;
+    font-size: 26px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    padding-left: 16px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    margin: 0 16px;
+    font-weight: 600;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content {
+    text-align: center;
+    color: aliceblue;
+    max-width: 1200px;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+}
+
+.main-content p {
+    margin: 16px 0;
+    font-size: 18px;
+    max-width: 600px;
+}
+
+.main-content button {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 28px;
+    cursor: pointer;
+    letter-spacing: .5px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    background: green;
+    color: black;
+}
+
